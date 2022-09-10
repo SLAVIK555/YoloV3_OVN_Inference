@@ -1,0 +1,8 @@
+python3 mo.py --input_model /home/slava/Source/YoloV3_OVN_Inference/PT_V3_models/416-200/best.onnx --output_dir /home/slava/Source/YoloV3_OVN_Inference/PT_V3_models/416-200 --input_shape [1,3,416,416] --input images --scale 255 --data_type FP16 --output Conv_351,Conv_297,Conv_243 --model_name best --progress
+
+
+./object_detection_demo -m /home/slava/Source/YoloV3_OVN_Inference/colab_conv/frozen_darknet_yolov3_model.xml -d GPU -i /home/slava/Source/YoloV3_OVN_Inference/input.avi --at 'yolo'
+
+
+
+./object_detection_demo -m /home/slava/Source/YoloV3_OVN_Inference/PT_V3_models/416-200/best.xml -d GPU -i /home/slava/Source/YoloV3_OVN_Inference/input.avi --at 'yolo'

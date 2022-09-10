@@ -1,0 +1,122 @@
+PyTorch YoloV3 Models:
+
+416-200:
+[ INFO ] Metric reports:
+Latency: 669.6 ms
+FPS: 7.3
+
+[ INFO ] Avg time:
+  * Decoding:		5.39 ms
+  * Preprocessing:	4.04 ms
+  * Inference:		659.51 ms
+  * Postprocessing:	1.55 ms
+  * Rendering:		1.67 ms
+[ INFO ] 
+
+
+
+416spp:
+[ INFO ] Metric reports:
+Latency: 681.1 ms
+FPS: 7.1
+
+[ INFO ] Avg time:
+  * Decoding:		5.33 ms
+  * Preprocessing:	3.89 ms
+  * Inference:		671.07 ms
+  * Postprocessing:	1.59 ms
+  * Rendering:		1.71 ms
+[ INFO ] 
+
+
+
+416tiny:
+[ INFO ] Metric reports:
+Latency: 58.0 ms
+FPS: 63.3
+
+[ INFO ] Avg time:
+  * Decoding:		3.41 ms
+  * Preprocessing:	2.29 ms
+  * Inference:		51.05 ms
+  * Postprocessing:	0.21 ms
+  * Rendering:		0.77 ms
+[ INFO ] 
+
+
+
+320-200:
+[ INFO ] Metric reports:
+Latency: 435.7 ms
+FPS: 11.1
+
+[ INFO ] Avg time:
+  * Decoding:		5.35 ms
+  * Preprocessing:	2.73 ms
+  * Inference:		425.65 ms
+  * Postprocessing:	1.22 ms
+  * Rendering:		2.41 ms
+[ INFO ] 
+
+
+
+320-300:
+[ INFO ] Metric reports:
+Latency: 435.6 ms
+FPS: 11.1
+
+[ INFO ] Avg time:
+  * Decoding:		5.28 ms
+  * Preprocessing:	2.60 ms
+  * Inference:		425.94 ms
+  * Postprocessing:	1.23 ms
+  * Rendering:		2.32 ms
+[ INFO ] 
+
+
+
+320tiny-300:
+[ INFO ] Metric reports:
+Latency: 35.7 ms
+FPS: 79.6
+
+[ INFO ] Avg time:
+  * Decoding:		3.26 ms
+  * Preprocessing:	1.40 ms
+  * Inference:		28.31 ms
+  * Postprocessing:	0.13 ms
+  * Rendering:		0.83 ms
+[ INFO ] 
+
+
+
+Darknet YoloV3 Models:
+
+d416:
+[ INFO ] Metric reports:
+Latency: 1294.1 ms
+FPS: 3.8
+
+[ INFO ] Avg time:
+  * Decoding:		7.27 ms
+  * Preprocessing:	5.75 ms
+  * Inference:		1279.91 ms
+  * Postprocessing:	0.63 ms
+  * Rendering:		1.70 ms
+[ INFO ] 
+
+
+
+d416-tiny:
+[ INFO ] Metric reports:
+Latency: 126.1 ms
+FPS: 35.1
+
+[ INFO ] Avg time:
+  * Decoding:		4.82 ms
+  * Preprocessing:	3.33 ms
+  * Inference:		117.49 ms
+  * Postprocessing:	0.17 ms
+  * Rendering:		1.40 ms
+[ INFO ] 
+
